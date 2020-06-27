@@ -109,6 +109,25 @@ vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 
+<<<<<<< HEAD
+=======
+# Bluetooth Audio - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
+vendor/lib64/hw/audio.bluetooth_qti.default.so|8b390a57d5c58a362f435342c9f892a32da5078f
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|332bbe7b0e76358500605f7651b0dcfa0cd7f27b
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|71ad8980142e7d8d754607accc0cffd8f5e68dbd
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|96b44484392abf88f8473100279e9f68b05f1f50
+vendor/lib64/libbluetooth_audio_session_qti.so|1e483158e908282e33cb2ce5591aabf8fa88c489
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|9346946b110086a6b473c8226e072e9a0cdbb87e
+vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|c51214b092f7e47c2d21989a605c4a8c7e7b85eb
+vendor/lib/hw/audio.bluetooth_qti.default.so|7dcd20a9637021233693ac2474e61bc651dbea76
+vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|c8f0515e3d9c2dfc99e2562f3b43100690ee2054
+vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|6f9f0f1a9bbd14682caf825844cf652adb7b8f4b
+vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|d04ce5677ea683330ea26dfebe40759e7e533d6d
+vendor/lib/libbluetooth_audio_session_qti.so|0bd178da637471b31f991a4e0d8894223a6af8ba
+vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|37bc226f0aa9793a6beca1cabdde40030a7637f9
+vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so|52855c14cca9af580f2006304a5fb69ffd35e9ac
+
+>>>>>>> 43435b8... Revert "violet: update camera blobs from 11.0.1.0"
 # Camera
 vendor/etc/camera/beauty_ui9_intelligent_params.config
 vendor/etc/camera/eyelineblush.cng
@@ -363,7 +382,10 @@ vendor/lib64/camera/components/com.qtistatic.stats.awb.so
 vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
 vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so
 vendor/lib64/camera/components/com.xiaomi.node.mibokeh.so
+<<<<<<< HEAD
 vendor/lib64/camera/components/com.xiaomi.node.misegment.so
+=======
+>>>>>>> 43435b8... Revert "violet: update camera blobs from 11.0.1.0"
 vendor/lib64/camera/components/libdepthmapwrapper.so
 vendor/lib64/camera/components/libmmcamera_cac3.so
 vendor/lib64/camera/components/model_back.dlc
